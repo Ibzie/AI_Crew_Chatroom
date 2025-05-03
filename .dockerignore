@@ -1,0 +1,11 @@
+# .dockerignore
+venv/
+*.pyc
+__pycache__/
+.env
+.git/
+*.log
+.DS_Store
+.idea/
+.vscode/
+data/conversations/*

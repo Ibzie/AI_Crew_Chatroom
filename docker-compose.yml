@@ -1,0 +1,14 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  ai-hangout:
+    build: .
+    ports:
+      - "5000:5000"  # Flask frontend
+      - "8000:8000"  # API backend
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      - ./data:/app/data  # Persist conversation data
+    restart: unless-stopped

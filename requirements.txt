@@ -9,3 +9,4 @@ rich>=13.5.0
 fastapi>=0.104.0
 uvicorn>=0.23.2
 langchain_groq
+pydantic_settings
