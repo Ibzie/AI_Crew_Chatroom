@@ -19,15 +19,14 @@ RUN pip install flask
 # Copy project files
 COPY . .
 
-# Create data directory
+# Create necessary directories
 RUN mkdir -p data/conversations
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 
-# Expose ports
-EXPOSE 5000
-EXPOSE 8000
+# Set the PORT environment variable explicitly
+ENV PORT=5000
 
-# Start both services
-CMD ["sh", "-c", "python main.py --mode api & python frontend/app.py"]
+# Run the Flask app on the PORT that Render provides
+CMD ["python", "frontend/app.py"]

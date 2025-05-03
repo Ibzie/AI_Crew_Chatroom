@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-hangout
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: python frontend/app.py
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: GROQ_API_KEY
+        sync: false  # This means it needs to be set in the dashboard
