@@ -1,7 +1,3 @@
-# PLACE HOLDER READ ME FOR NOW
-
-
-
 # AI Hangout - Multi-Agent Chat System
 
 A sophisticated multi-agent chat system that brings together four unique AI personalities in a dynamic group conversation. Built with CrewAI and LangGraph, this project demonstrates the power of collaborative AI with specialized agents working together to create engaging discussions.
@@ -16,7 +12,7 @@ AI Hangout allows you to chat with four distinct AI personalities simultaneously
 
 Each agent has their own expertise, communication style, and perspective, creating rich, multi-faceted conversations on any topic.
 
-For a detailed explanation of the concepts behind this project, check out my Medium article: [My AI Agents Don't Steal My Lunch from the Fridge: Creating Ideal Coworkers with CrewAI and Langraph](https://medium.com/@yourhandle/article-link)
+For a detailed explanation of the concepts behind this project, check out my Medium article: [Digital Water Cooler Talk: Creating AI Friends That Communicate Using CrewAI and LangGraph](https://ibzie.medium.com/digital-water-cooler-talk-creating-ai-friends-that-communicate-using-crewai-and-langgraph-d437ea851883)
 
 ## Features
 
@@ -46,7 +42,7 @@ For a detailed explanation of the concepts behind this project, check out my Med
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-hangout.git
+   git clone https://github.com/Ibzie/AI_Crew_Chatroom.git
    cd ai-hangout
    ```
 
@@ -112,28 +108,6 @@ ai_hangout/
 └── requirements.txt      # Python dependencies
 ```
 
-## Deployment
-
-### Free Hosting Options
-
-The project can be deployed for free on various platforms:
-
-1. **Render.com** (Recommended)
-   - Connect your GitHub repository
-   - Add GROQ_API_KEY as environment variable
-   - Deploy automatically
-
-2. **Railway.app**
-   - Import from GitHub
-   - Configure environment variables
-   - Deploy with one click
-
-3. **Fly.io**
-   - Use the provided fly.toml configuration
-   - Deploy with flyctl
-
-See the [Deployment Guide](deployment-guide.md) for detailed instructions.
-
 ## Usage
 
 1. Enter a topic to discuss
@@ -164,9 +138,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -177,9 +148,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Ibrahim Akhtar**
-- Medium: [@yourhandle](https://medium.com/@yourhandle)
-- LinkedIn: [Ibrahim Akhtar](https://www.linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Medium: [@Ibzie](https://ibzie.medium.com/)
+- LinkedIn: [Ibrahim Akhtar](https://www.linkedin.com/in/ibrahim-akhtar-ab543823b/)
+- GitHub: [@Ibzie](https://github.com/ibzie)
 
 ## Support
 
